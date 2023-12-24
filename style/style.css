@@ -1,0 +1,32 @@
+body {
+  background-color: LavenderBlush;
+}
+
+#name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: large;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+}
