@@ -1,5 +1,7 @@
 body {
-  background-color: LavenderBlush;
+  background-color: whitesmoke;
+  padding: 1rem;
+  height: 1rem;
 }
 
 #name {
@@ -7,6 +9,14 @@ body {
   font-style: italic;
 }
 
+#content{
+  background-color:#9E9E9E;
+  border: 2px solid #f5f5f5f5;
+  border-radius: 20px; 
+  position: fixed;
+  
+  
+}
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
@@ -29,4 +39,14 @@ li {
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   text-decoration: underline;
+}
+
+#paragrafos{
+  width: 70%;
+
+
+}
+
+#list{
+
 }
