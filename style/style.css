@@ -101,3 +101,7 @@ button:hover{
   border: 3px solid #F5F5F5;
   margin: 0% auto;
 }
+
+.list:hover, .name:hover, p:hover, h1:hover, h2:hover{
+  color: white;
+}
