@@ -17,9 +17,11 @@ body {
   border-radius: 20%;
   border-right: 3px;
   border-left: 3px;
-  margin-left: 600px;
-  margin-top: -85px;
-  margin-right: 25px;
+  left: 600px;
+  top: -85px;
+  right: 25px;
+  width: 200px;
+  float: right;
 }
 
 #name {
