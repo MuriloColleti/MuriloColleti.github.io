@@ -8,32 +8,32 @@
 
   <title>Meu Portifolio Web</title>
 </head>
-<div id="toll-bar">
-  <button class="home">Home</button>
-  <button class="sobre">Sobre Mim</button>
-  <button class="contato">Contato</button>
-  <button class="linkedin">Linkedin</button>
-  <button id="github">GitHub</button>
-</div>
 
-<body>
-  <div id="content">
+<body> 
+  
+  <header class="header-body">
+
+      <nav class="header-itens">
+        <a href="#">Home</a>
+        <a href="#about">Sobre mim</a>
+        <a href="#contact">Contato</a>
+        <a href="https://www.linkedin.com/in/murilo-colleti-762a06267/">linkeedin</a>
+        <a href="https://github.com/MuriloColleti">GitHub</a>
+      </nav>
+
+
+  </header>
+
+  <main id="content">
     <h1>Portifolio</h1>
 
     <h2>Sobre mim</h2>
     <img src="img/minhafoto.jpeg"  id="foto">
     <h2 id="name">Murilo Barbosa Colleti</h2>
-    <!DOCTYPE html>
-    <html lang="en">
 
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
-    </head>
-
-    <div class="paragraph">
-      <p>
+    <article class="article">
+      
+      <p id="about">
 
         Tenho 18 anos, sou apaixonado por programação, Moro no interior de São
         Paulo,<br>
@@ -44,7 +44,7 @@
         profissional de alto desempenho.
 
       </p>
-    </div>
+    
 
     <h2>Hablidades</h2>
 
@@ -57,7 +57,18 @@
         <li class="SpringBoot">SpringBoot</li>
       </ul>
     </div>
-  </div>
+
+    <article id="contact">
+      <header class="header-Contact"> 
+        <h1>Formas De Contatos</h1>
+      </header>
+      <p>
+      number: (16) 996143669<br>
+      email: mu_colleti@outlook.com
+    </p>
+    </article>
+  
+</article>
 </body>
 
 </html>

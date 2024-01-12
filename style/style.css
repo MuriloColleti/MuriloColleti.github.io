@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #F5F5F5;
+  background-color: black;
   overflow: scroll;
   background-repeat: no-repeat;
   display: flex;
@@ -53,7 +53,14 @@ h2 {
   text-decoration: underline;
 }
 
-.paragraph {
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: large;
+
+}
+
+.article {
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   font-size: large;
@@ -67,40 +74,26 @@ h2 {
   text-decoration: underline;
   padding: 1rem;
 }
-.sobre{
-
-  
-}
-
-.contato{
-  
-
-}
-.home{
-}
-
-button{
-  border: 0.2rem solid #424242 ;
-  border-radius: 30%;
-  padding: 10px;
-  background-color: #F5F5F5;
-}
-
-button:active{
-  color: white;
-}
-button:hover{
-  background-color: #424242;
-
-}
-
-#toll-bar{
-  background-color: #F5F5F5;
-  border-radius: 5%;
-  border: 3px solid #F5F5F5;
-  margin: 0% auto;
-}
 
 .list:hover, .name:hover, p:hover, h1:hover, h2:hover{
   color: white;
+}
+
+a{ 
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: large;
+  padding: 6.5rem;
+}
+
+#header-body{
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+  position: fixed;
+}
+
+a:hover{
+
 }
